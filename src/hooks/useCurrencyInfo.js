@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 const useCurrencyInfo = (currency) => {
   const [data, setData] = useState({});
+  console.log("ReviewPilot test");
   useEffect(() => {
     fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2025-06-11/v1/currencies/${currency}.json`)
       .then((res) => res.json())

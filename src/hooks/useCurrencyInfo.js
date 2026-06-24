@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 const useCurrencyInfo = (currency) => {
   const [data, setData] = useState({});
-  console.log("ReviewPilot test1");
+  console.log("ReviewPilot test");
   console.log("ReviewPilot test2");
 
   useEffect(() => {

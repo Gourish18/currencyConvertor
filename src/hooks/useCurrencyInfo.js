@@ -3,6 +3,7 @@ const useCurrencyInfo = (currency) => {
   const [data, setData] = useState({});
   console.log("ReviewPilot test");
   console.log("ReviewPilot PR Test");
+  console.log("ReviewPilot PR Test 2");
 
   useEffect(() => {
     fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2025-06-11/v1/currencies/${currency}.json`)
